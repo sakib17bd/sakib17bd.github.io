@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>মুহাম্মদ শফিকুল ইসলাম সাকিব</title>
+<meta name="description" content="মাদ্রাসার ছাত্র, বইপ্রেমী ও লেখক। ভবিষ্যতের ফ্রিল্যান্সার।">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&family=Noto+Serif+Bengali:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  /* ===== রং ও ফন্ট: এখান থেকে বদলাতে পারবেন ===== */
+  :root{
+    --bg:#f2f6f4; --ink:#10302b; --muted:#4d6560; --line:#c9d8d3;
+    --accent:#d99a00; --card:#ffffff;
+    --serif:"Noto Serif Bengali","Kalpurush","SolaimanLipi",serif;
+    --sans:"Hind Siliguri","Noto Sans Bengali",system-ui,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){--bg:#0e1b18;--ink:#e6f0ec;--muted:#9bb2ab;--line:#264039;--card:#142622;--accent:#f0b429}
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font:400 1.05rem/1.85 var(--sans)}
+  a{color:inherit}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  .wrap{max-width:860px;margin:0 auto;padding:0 1.25rem}
+  header.top{display:flex;justify-content:space-between;align-items:center;padding:1.2rem 0;gap:1rem;flex-wrap:wrap}
+  header.top b{font-family:var(--serif)}
+  nav a{margin-left:1.1rem;text-decoration:none;color:var(--muted)}
+  nav a:hover{color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:5px}
+
+  /* হিরো */
+  .hero{padding:3.5rem 0 2.5rem}
+  .hero h1{font:700 clamp(2.2rem,7vw,4rem)/1.25 var(--serif);margin:0 0 .4rem}
+  .en{color:var(--muted);margin:0 0 1.4rem;font-weight:500}
+  .hero p.lead{max-width:34rem;font-size:1.15rem;margin:0}
+
+  /* বইয়ের তাক: পাতার মূল আকর্ষণ */
+  .shelf{display:flex;align-items:flex-end;gap:6px;margin-top:2.5rem;padding:0 .6rem;border-bottom:8px solid var(--ink);overflow-x:auto}
+  .spine{flex:0 0 auto;writing-mode:vertical-rl;text-orientation:mixed;padding:1rem .55rem;font:600 1rem/1 var(--serif);color:#fff;border-radius:3px 3px 0 0;white-space:nowrap}
+  .s1{background:#0f5c4d;height:190px}.s2{background:#b4690e;height:150px}.s3{background:#2b4a7a;height:210px}
+  .s4{background:#7a2e48;height:165px}.s5{background:#3d3d3d;height:195px}.s6{background:#5a7d2a;height:140px}
+
+  section{padding:2.6rem 0;border-top:1px solid var(--line)}
+  h2{font:700 1.7rem/1.4 var(--serif);margin:0 0 1rem}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.25rem}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1.3rem 1.4rem}
+  .card h3{font:700 1.2rem/1.5 var(--serif);margin:0 0 .4rem}
+  .card p{margin:0;color:var(--muted)}
+
+  /* লেখা */
+  .posts{list-style:none;margin:0;padding:0}
+  .posts li{padding:1rem 0;border-bottom:1px solid var(--line)}
+  .posts a{font:700 1.15rem var(--serif);text-decoration:none}
+  .posts a:hover{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:5px}
+  .posts small{display:block;color:var(--muted)}
+
+  /* যোগাযোগ */
+  .contact a{display:inline-block;margin:.3rem 1rem .3rem 0;padding:.65rem 1.2rem;border:2px solid var(--ink);border-radius:8px;text-decoration:none;font-weight:600}
+  .contact a:hover{background:var(--ink);color:var(--bg)}
+  footer{padding:2rem 0 3rem;color:var(--muted);font-size:.95rem}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <b>সাকিব</b>
+    <nav>
+      <a href="#about">পরিচিতি</a>
+      <a href="#plan">পরিকল্পনা</a>
+      <a href="#writing">লেখা</a>
+      <a href="#contact">যোগাযোগ</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>মুহাম্মদ শফিকুল ইসলাম সাকিব</h1>
+      <p class="en">Mohammed Shafiqul Islam Sakib</p>
+      <p class="lead">আমি কওমি ও আলিয়া মাদ্রাসার ছাত্র। অবসরে বই পড়ি, সমসাময়িক বিষয় নিয়ে লিখি, আর ফ্রিল্যান্সিং শিখে নিজের ক্যারিয়ার গড়ার পথে হাঁটছি।</p>
+
+      <!-- বইয়ের তাক: নতুন বই যোগ করতে একটি <div class="spine s1">…</div> লাইন কপি করুন -->
+      <div class="shelf" aria-hidden="true">
+        <div class="spine s1">বই পড়া</div>
+        <div class="spine s2">লেখালেখি</div>
+        <div class="spine s3">সমসাময়িক বিষয়</div>
+        <div class="spine s4">মাদ্রাসার পড়া</div>
+        <div class="spine s5">ফ্রিল্যান্সিং</div>
+        <div class="spine s6">নতুন কিছু শেখা</div>
+      </div>
+    </div>
+
+    <section id="about">
+      <h2>আমার সম্পর্কে</h2>
+      <div class="grid">
+        <div class="card"><h3>পড়াশোনা</h3><p>কওমি ও আলিয়া মাদ্রাসায় বর্তমানে অধ্যয়নরত।</p></div>
+        <div class="card"><h3>বই পড়া</h3><p>অবসর সময়ে নানা ধরনের বই পড়তে ভালোবাসি।</p></div>
+        <div class="card"><h3>লেখালেখি</h3><p>সমসাময়িক বিষয় নিয়ে টুকটাক লিখি।</p></div>
+      </div>
+    </section>
+
+    <section id="plan">
+      <h2>ভবিষ্যৎ পরিকল্পনা</h2>
+      <p>আমার লক্ষ্য ফ্রিল্যান্সিং শেখা এবং সেই দক্ষতা দিয়ে নিজের ক্যারিয়ার গড়ে তোলা। এই সাইটে আমার শেখার অগ্রগতি ও কাজের নমুনা সময়ের সাথে যোগ করব।</p>
+    </section>
+
+    <section id="writing">
+      <h2>আমার লেখা</h2>
+      <!-- নতুন লেখা যোগ করতে নিচের একটি <li> কপি করে শিরোনাম, তারিখ ও লিংক বদলান। শুরুতে নমুনা দেওয়া আছে, সেটি মুছে ফেলুন। -->
+      <ul class="posts">
+        <li><a href="#">আপনার প্রথম লেখার শিরোনাম এখানে বসান</a><small>তারিখ ও এক লাইনের সারসংক্ষেপ</small></li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>যোগাযোগ</h2>
+      <p>কথা বলতে বা কাজের প্রস্তাব দিতে যেকোনো একটি মাধ্যমে লিখুন।</p>
+      <a href="tel:+8801758712817">কল করুন: 01758712817</a>
+      <a href="mailto:muhammadshafiqulislamsaqib@gmail.com">ইমেইল পাঠান</a>
+    </section>
+  </main>
+
+  <footer>© <span id="y">2026</span> মুহাম্মদ শফিকুল ইসলাম সাকিব</footer>
+</div>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
